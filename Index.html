@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FightHub Unban Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FightHub Unban Tool</h1>
+        <form id="unbanForm">
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="rangeMin">Enter minimum range:</label>
+            <input type="number" id="rangeMin" name="rangeMin" required>
+            <label for="rangeMax">Enter maximum range:</label>
+            <input type="number" id="rangeMax" name="rangeMax" required>
+            <button type="submit">Calculate Unban Date</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
